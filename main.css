@@ -1,0 +1,107 @@
+html {
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Set the background to fixed */
+    margin: 0; /* Remove default body margin */
+
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("walpapers/pic.jpg");
+    /* z-index: -1; */
+    /* filter: blur(5px); */
+}
+.all {
+    margin-top: 100px;
+    text-align: center;
+}
+.heading {
+    /* font-family: 'Dela Gothic One', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+}
+.creators-name {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+a {
+    color: white;
+}
+ul {
+    list-style-type: none;
+}
+ul li {
+    margin: 30px;
+}
+ul li a {
+    /* color: red; */
+    color: white;
+    background-color: rgba(255, 0, 34, 0.829);
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    transition-duration: 350ms;
+}
+ul li a:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-color: red;
+    transition-duration: 350ms;
+    border: 1px solid white;
+}
+.model {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin-bottom: 25px;
+    backdrop-filter: blur(7px);
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    transition-duration: 800ms;
+}
+.model:hover {
+    font-size: 21px;
+    background-color: rgba(0, 0, 0, 0.9);
+    backdrop-filter: none;
+    transition-duration: 800ms;
+    /* padding: 20px;
+
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif; */
+}
+.model a {
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 5px;
+}
+.footer .social-media {
+    padding: 100px;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .social-media .urls a {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+/* #shahil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
